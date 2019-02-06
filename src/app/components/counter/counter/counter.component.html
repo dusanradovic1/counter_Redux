@@ -1,0 +1,10 @@
+<body>
+<div class="counter">
+  <button class="button" (click)="decrement()">-</button>
+  <div class="input-wrapper">
+    <input class="input" type="text" [value]="numberCounter$ | async">
+  </div>
+  <button class="button" (click)="increment()">+</button>
+</div>
+
+</body>
